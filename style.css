@@ -1,0 +1,91 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+
+.recipe, main {
+    max-width: 90%;
+    background-color: white;
+    box-sizing: border-box;
+    font-family: outfit, sans-serif;
+    margin-inline: auto;
+}
+
+img {
+    width: 110vw;
+    margin: 0;
+    position: relative;
+    left: -10%;
+}
+
+h1, h2 {
+    font-family: 'Serif', 'Young Serif';
+    font-weight: 400;
+    color: hsl(332, 43%, 27%);
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+li, td{
+    color: hsl(332, 51%, 32%);
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+
+td {
+    font-weight: 600;
+    box-sizing: border-box;
+    width: 40vw;
+    padding-left: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+  
+tr {
+    border-bottom: 0.5pt solid  hsl(30, 18%, 87%);
+}
+
+.wengebrown, p{
+    color: hsl(30, 10%, 34%);
+    font-weight: 500;
+}
+
+.prep-time {
+    max-width: 100%;
+    background-color: hsl(30, 54%, 90%);
+    box-sizing: border-box;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+/* BIGGER SCREEN (MIN 720PX) */
+@media (min-width: 720px) {
+    body {
+        background-color: hsl(30, 54%, 90%);
+    }
+
+    .recipe {
+        max-width: 700px;
+        margin-inline: auto;
+        padding: 40px;
+        border-radius: 20px;
+    }
+    
+    img {
+        position: static;
+        width: 100%;
+        border-radius: 20px;
+    }
+    
+    td {
+        padding: 10px 200px 10px 30px;
+    }
+    
+    .prep-time {
+        max-width: 640px;
+    }
+}
